@@ -20,7 +20,23 @@
 
 // Import partials
 @import 'nav';
+@import 'jumbotron';
 
-h3 {
-  font-size: 1.5rem;
+
+.row {
+  text-align: center;
+
 }
+
+h2 {
+  text-decoration-line: underline;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
