@@ -1,22 +1,31 @@
 {% extends '_templates/base.njk' %}
 
-{% block page_title %}Welcome to Austin{% endblock %}
+{% block page_title %}Welcome to ATX{% endblock %}
 
 {% block page_description %}The index search description for this page goes here.{% endblock %}
 
 {% block content %}
 <div class="container">
-  <h1>Explore Everything the State Capital Has to Offer</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in facilisis velit, aliquam congue dui. Mauris id mi quam. Nam enim leo, bibendum vel efficitur id, elementum malesuada est. Pellentesque interdum tempus eros nec iaculis. Quisque ac est dictum, vehicula nulla quis, condimentum dui.</p>
-</div>
-<div class="row">
-  <h2>Famous Landmarks</h2>
-  {% for landmarks in landmarks.landmarks %}
-  <div class="col-sm-12 col-md-6 col-lg-4">
-    <h4><a href="landmark/{{ landmarks.slug }}.html" target= "_blank">{{ landmarks.name }}</a></h4>
-    <img src="img/landmarks/{{ landmarks.slug }}.jpg" alt="{{ landmarks.name }}" class="img-fluid">
+  <div id="intro-text">
+    <h1>It's a City Like No Other</h1>
+    <p>Explore Austin's unparalleled energy using this compiled guide of all the sights, bites and delights this city has to offer. From the iconic landmarks to its vibrant culinary scene, Austin has cemented its position as a hub for art and culture. Scroll below and start your journey here. Where will the ATX take you?</p>
   </div>
-  {% endfor %} 
+  <div class="row">
+    <h2>Famous Landmarks</h2>
+    {% for landmarks in landmarks.landmarks %}
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card">
+        <img src="img/landmarks/{{ landmarks.slug }}.jpg" class="card-img-top" alt="{{ landmarks.name }}">
+        <div class="card-body">
+          <h5 class="card-title"><a href="landmark/{{ landmarks.slug }}.html" target= "_blank">{{ landmarks.name }}</a></h5>
+          <p class="card-text"> {{landmarks.location}}</p>
+          <p class="card-text"> Activities: {{landmarks.activities}}</p>
+          <a href="landmark/{{ landmarks.slug }}.html" target= "_blank" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}   
+  </div>
 </div>
  
 

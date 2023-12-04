@@ -23,13 +23,9 @@
 @import 'jumbotron';
 
 
-.row {
-  text-align: center;
-
-}
-
 h2 {
   text-decoration-line: underline;
+  text-align: center;
 }
 
 a:link {
@@ -40,3 +36,11 @@ a:hover {
   text-decoration: underline;
 }
 
+.card {
+  margin-bottom: 1rem;
+}
+
+#intro-text {
+  text-align: center;
+  margin: 2rem;
+}
