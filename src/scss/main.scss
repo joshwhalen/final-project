@@ -21,11 +21,14 @@
 // Import partials
 @import 'nav';
 @import 'jumbotron';
+@import 'landmark';
 
-
-h2 {
-  text-decoration-line: underline;
+p {
+  font-family: 'Inter', sans-serif;
+}
+.heading {
   text-align: center;
+  font-family: 'DM Serif Display', serif;
 }
 
 a:link {
@@ -40,7 +43,12 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-#intro-text {
+.card-text {
+  color: dimgray;
+}
+
+.intro-text {
   text-align: center;
   margin: 2rem;
 }
+

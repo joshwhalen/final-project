@@ -8,14 +8,28 @@
 
 {% block content %}
 <article class="container">
-  <h2>{{name}}</h2>
+  <h1 class="heading">{{name}}</h1>
+  <div class="landmark-main-photo">
+    <img src="../img/landmarks/{{ slug }}.jpg" alt="{{ name }}" class="img-fluid">
+  </div>
   <div class="row">
-    <div class="col-md-6">
-      <img src="../img/landmarks/{{ slug }}.jpg" alt="{{ name }}" class="img-fluid">
-    </div>
     <div class="col-md-6">
       {{ description | safe }}
       <hr class="d-sm-none">
+    </div>
+    <div class="card col-md-6" style="width: 22rem;">
+      <img src="../img/landmarks/{{slug}}-bw.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{name}}</h5>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">{{established}}</li>
+        <li class="list-group-item">Located at {{location}}</li>
+        <li class="list-group-item">Activities: {{activities}}</li>
+      </ul>
+      <div class="card-body">
+        <a href="{{url}}" class="card-link">{{name}} Website</a>
+      </div>
     </div>
   </div>
 </article>

@@ -6,20 +6,20 @@
 
 {% block content %}
 <div class="container">
-  <div id="intro-text">
-    <h1>It's a City Like No Other</h1>
+  <div class="intro-text">
+    <h2 class="heading">It's a City Like No Other</h2>
     <p>Explore Austin's unparalleled energy using this compiled guide of all the sights, bites and delights this city has to offer. From the iconic landmarks to its vibrant culinary scene, Austin has cemented its position as a hub for art and culture. Scroll below and start your journey here. Where will the ATX take you?</p>
   </div>
   <div class="row">
-    <h2>Famous Landmarks</h2>
+    <h2 class="heading">Landmarks</h2>
     {% for landmarks in landmarks.landmarks %}
     <div class="col-sm-12 col-md-6 col-lg-4">
       <div class="card">
         <img src="img/landmarks/{{ landmarks.slug }}.jpg" class="card-img-top" alt="{{ landmarks.name }}">
         <div class="card-body">
-          <h5 class="card-title"><a href="landmark/{{ landmarks.slug }}.html" target= "_blank">{{ landmarks.name }}</a></h5>
+          <h4 class="card-title"><a href="landmark/{{ landmarks.slug }}.html" target= "_blank">{{ landmarks.name }}</a></h4>
           <p class="card-text"> {{landmarks.location}}</p>
-          <p class="card-text"> Activities: {{landmarks.activities}}</p>
+          <h6> Activities: {{landmarks.activities}}</h6>
           <a href="landmark/{{ landmarks.slug }}.html" target= "_blank" class="btn btn-primary">Learn More</a>
         </div>
       </div>
