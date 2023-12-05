@@ -1,0 +1,124 @@
+{
+  "restaurants": [
+    {
+      "name": "Franklin Barbecue",
+      "address": "900 E 11th St, Austin, TX 78702",
+      "category": "Barbecue",
+      "image": "franklin-bbq.jpg",
+      "website": "https://franklinbbq.com/",
+      "phone": "(512) 653-1187"
+    },
+    {
+      "name": "Home Slice Pizza",
+      "address": "1415 S Congress Ave, Austin, TX 78704",
+      "category": "Pizza",
+      "image": "homeslice-pizza.jpg",
+      "website": "https://homeslicepizza.com/",
+      "phone": "(512) 707-7437"
+    },
+    {
+      "name": "Juan in a Million",
+      "address": "2300 E Cesar Chavez St, Austin, TX 78702",
+      "category": "Tex-Mex",
+      "image": "juan-in-a-million.jpg",
+      "website": "https://juaninamillion.com/",
+      "phone": "(512) 472-3872"
+    },
+    {
+      "name": "Launderette",
+      "address": "2115 Holly St, Austin, TX 78702",
+      "category": "American",
+      "image": "launderette.jpg",
+      "website": "https://launderetteaustin.com/",
+      "phone": "(512) 382-1599"
+    },
+    {
+      "name": "Oseyo",
+      "address": "1628 E Cesar Chavez St, Austin, TX 78702",
+      "category": "Korean",
+      "image": "oseyo.jpg",
+      "website": "https://oseyoaustin.com/",
+      "phone": "(512) 368-5700"
+    },
+    {
+      "name": "Valentina's Tex Mex BBQ",
+      "address": "11500 Menchaca Rd, Austin, TX 78748",
+      "category": "Tacos",
+      "image": "valentinas.jpg",
+      "website": "https://www.valentinastexmexbbq.com/",
+      "phone": "(512) 221-4248"
+    },
+    {
+      "name": "The Peached Tortilla",
+      "address": "5520 Burnet Rd #100, Austin, TX 78756",
+      "category": "Asian fusion",
+      "image": "peached-tortilla.jpg",
+      "website": "https://thepeachedtortilla.com/",
+      "phone": "(512) 330-4439"
+    },
+    {
+      "name": "Patrizi's",
+      "address": "2307 Manor Rd, Austin, TX 78722",
+      "category": "Italian",
+      "image": "patrizis.jpg",
+      "website": "https://www.patrizis.com/",
+      "phone": "(512) 522-4834"
+    },
+    {
+      "name": "Bufalina",
+      "address": "1519 E Cesar Chavez St #200, Austin, TX 78702",
+      "category": "Pizza",
+      "image": "bufalina.jpg",
+      "website": "https://www.bufalinapizza.com/",
+      "phone": "(512) 394-5337"
+    },
+    {
+      "name": "Via313",
+      "address": "61 Rainey St, Austin, TX 78701",
+      "category": "Pizza",
+      "image": "via313.jpg",
+      "website": "https://www.via313.com/",
+      "phone": "(512) 358-6193"
+    },
+    {
+      "name": "Uchi",
+      "address": "801 S Lamar Blvd, Austin, TX 78704",
+      "category": "Japanese",
+      "image": "uchi.jpg",
+      "website": "https://uchiko.uchirestaurants.com/location/austin/",
+      "phone": "(512) 916-4808"
+    },
+    {
+      "name": "888 Pan Asian Restaurant",
+      "address": "2400 E Oltorf St #1A, Austin, TX 78741",
+      "category": "Pan-Asian",
+      "image": "888.jpg",
+      "website": "https://www.888panasianrestaurant.com/",
+      "phone": "(512) 448-4722"
+    },
+    {
+      "name": "The Pizza Press",
+      "address": "404 W 26th St, Austin, TX 78705",
+      "category": "Pizza",
+      "image": "pizza-press.jpeg",
+      "website": "https://thepizzapress.com/location/austin-tx/",
+      "phone": "(512) 808-0474"
+    },
+    {
+      "name": "Pinthouse Pizza",
+      "address": "4729 Burnet Rd, Austin, TX 78756",
+      "category": "Pizza",
+      "image": "pinthouse-pizza.jpeg",
+      "website": "https://pinthouse.com/",
+      "phone": "(512) 436-9605"
+    },
+    {
+      "name": "Terry Black’s BBQ",
+      "address": "1003 Barton Springs Rd, Austin, TX 78704",
+      "category": "Barbecue",
+      "image": "terry-blacks-bbq.jpeg",
+      "website": "https://terryblacksbbq.com/",
+      "phone": "(512) 394-5899"
+    }
+  ]
+}

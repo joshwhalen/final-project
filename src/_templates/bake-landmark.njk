@@ -13,14 +13,14 @@
     <img src="../img/landmarks/{{ slug }}.jpg" alt="{{ name }}" class="img-fluid">
   </div>
   <div class="row">
-    <div class="col-md-6">
+    <div class="description col-md-7 col-lg-8">
       {{ description | safe }}
       <hr class="d-sm-none">
     </div>
-    <div class="card col-md-6" style="width: 22rem;">
+    <div class="card col-md-4" style="width: 18rem;" id="landmark-card">
       <img src="../img/landmarks/{{slug}}-bw.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">{{name}}</h5>
+        <h5 class="card-title">{{name}} Fact Sheet</h5>
       </div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">{{established}}</li>

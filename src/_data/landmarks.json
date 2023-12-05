@@ -27,7 +27,7 @@
       "name": "Mount Bonnell",
       "established": "Established June 2, 1939",
       "location": "3800 Mount Bonnell Dr., Austin, TX 78731",
-      "activities": "Hiking, biking, sightseeing and stargazing",
+      "activities": "Hiking, sightseeing and stargazing",
       "url": "https://www.austintexas.org/listings/covert-park-at-mt-bonnell/2925/",
       "image": "mount-bonnell.jpg",
       "imagebw": "mount-bonnell-bw.jpg",
@@ -38,10 +38,10 @@
       "name": "The University of Texas",
       "established": "Established September 15, 1883",
       "location": "110 Inner Campus Dr, Austin, TX 78712",
-      "activities": "Sightseeing, bowling, exploring museums, attending concerts",
+      "activities": "Sightseeing, bowling, exploring museums and attending concerts",
       "url": "http://www.utexas.edu",
-      "image": "univ-of-tx.jpg",
-      "imagebw": "univ-of-tx-bw.jpg",
+      "image": "university-of-texas.jpg",
+      "imagebw": "university-of-texas-bw.jpg",
       "description": "<p>The University of Texas at Austin (UT Austin) is a public research university in Austin, Texas. It was founded in 1883 and is the flagship institution of the University of Texas System. The institution has the nation's eighth-largest single-campus enrollment, with over 50,000 undergraduate and graduate students and over 24,000 faculty and staff.</p><p>A Public Ivy, it is a major center for academic research, with research expenditures exceeding $615 million for the 2016–2017 school year. The university houses seven museums and seventeen libraries, including the Lyndon Baines Johnson Library and Museum and the Blanton Museum of Art, and operates various auxiliary research facilities, such as the J. J. Pickle Research Campus and the McDonald Observatory.</p><p>- Source: <a href=\"https://en.wikipedia.org/wiki/University_of_Texas_at_Austin\">Wikipedia</a></p>"
     }
   ],

@@ -6,24 +6,13 @@
       "name": "landmarks"
     },
     {
-      "fileId": "1RgMhjtkXlbbf9uzSzy_xPRKwxcVZIZqVytgM_JoU4E4",
+      "fileId": "14P5jJzEHWE70LVjS3eBg1TKajO_J58whycgI-5MB0uQ",
       "type": "doc",
-      "name": "library"
-    },
-    {
-      "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
-      "type": "sheet",
-      "name": "bookstores"
+      "name": "restaurants"
     }
+    
   ],
   "to_bake": [
-    {
-      "template": "bake-book",
-      "data": "library",
-      "array": "books",
-      "slug": "slug",
-      "path": "books"
-    },
     {
       "template": "bake-landmark",
       "data": "landmarks",

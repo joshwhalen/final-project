@@ -19,16 +19,26 @@
 // @import "../../node_modules/bootstrap/scss/mixins";
 
 // Import partials
+@import 'restaurants';
+@import 'card';
 @import 'nav';
 @import 'jumbotron';
 @import 'landmark';
 
-p {
-  font-family: 'Inter', sans-serif;
-}
+//Extra Styles
+
 .heading {
   text-align: center;
   font-family: 'DM Serif Display', serif;
+}
+
+.intro-text {
+  text-align: center;
+  margin: 2rem;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
 }
 
 a:link {
@@ -39,16 +49,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.card {
-  margin-bottom: 1rem;
-}
 
-.card-text {
-  color: dimgray;
-}
 
-.intro-text {
-  text-align: center;
-  margin: 2rem;
-}
 

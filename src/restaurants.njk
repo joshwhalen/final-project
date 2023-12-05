@@ -1,0 +1,33 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Restaurants{% endblock %}
+
+{% block page_description %}{{ name }} by Josh Whalen {% endblock %}
+
+{% block content %}
+
+<div class="container">
+  <div class="intro-text">
+    <h2 class="heading">The Best Bites In ATX</h2>
+    <p>From Italian to Japanese to tacos, the ATX food scene has you covered no matter what your cravings are! Check out the iconic Austin staples below to find your next bite to eat.</p>
+  </div>
+  <div class="row" id="restaurant-row">
+    {% for restaurants in restaurants.restaurants %}
+    <div class="card col-sm-6 col-lg-4" style="width: 18rem;" id="restaurant-card">
+      <img src="img/restaurants/{{restaurants.image}}" class="card-img-top" id="restaurant-card-img" alt="{{ restaurants.name }}">
+      <div class="card-body">
+        <h5 class="card-title">{{restaurants.name}}</h5>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Category: {{restaurants.category}}</li>
+        <li class="list-group-item">Location: {{restaurants.address}}</li>
+      </ul>
+      <div class="card-body">
+        <a href="{{ restaurants.website }} " target="_blank" class="card-link"> {{restaurants.name}} Website</a>
+        <p>Phone: {{restaurants.phone}}</p>
+      </div>
+    </div>
+    {% endfor %}   
+  </div>  
+</div>
+{% endblock %}
